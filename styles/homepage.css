@@ -48,24 +48,37 @@ video {
   margin-bottom: 30px;
   color: rgba(255, 255, 255, 0.7);
 }
-.hero-section-btn {
+.hero-section-btn {  
   width: 240px;  
   height: 40px;  
-  color: #0d1117 !important;
+  color: rgb(24, 24, 58);
   font-size: 16px;  
+  font-weight: bold;
   letter-spacing: 2px;  
   border-radius: 30px;  
-  position: relative;  
-  border: 2.5px solid transparent;  
+  border: none;
   cursor: pointer;
-
+  
   -webkit-appearance: none;
   appearance: none;
+  position: relative;
+  z-index: 1;
 
-  background-image: linear-gradient(rgb(255, 255, 255)), linear-gradient(to right, white, rgba(255, 214, 137, 0.587), rgba(255, 68, 0, 0.816));
-  background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
+  background: linear-gradient(to right, white, rgba(255, 214, 137, 0.587), rgba(255, 68, 0, 0.816));
 }
+
+.hero-section-btn::before {
+  content: '';
+  position: absolute;
+  top: 2.5px; 
+  left: 2.5px;
+  right: 2.5px;
+  bottom: 2.5px;
+  background: white;
+  border-radius: 28px;
+  z-index: -1;
+}
+
 .hero-section-btn .button-effect {  
   position: absolute;  
   width: 33px;  
