@@ -49,21 +49,22 @@ video {
   color: rgba(255, 255, 255, 0.7);
 }
 .hero-section-btn {
-  -webkit-appearance: none;
-  appearance: none;
   width: 240px;  
-  height: 44px;  
-  background-color: white;  
-  font-size: 15px;  
-  font-weight: bold;
+  height: 40px;  
+  color: #0d1117 !important;
+  font-size: 16px;  
   letter-spacing: 2px;  
   border-radius: 30px;  
   position: relative;  
   border: 2.5px solid transparent;  
   cursor: pointer;
-  background:     
-    linear-gradient(rgb(255, 255, 255)) padding-box,    
-    linear-gradient(to right, white, rgba(255, 214, 137, 0.587), rgba(255, 68, 0, 0.816)) border-box;
+
+  -webkit-appearance: none;
+  appearance: none;
+
+  background-image: linear-gradient(rgb(255, 255, 255)), linear-gradient(to right, white, rgba(255, 214, 137, 0.587), rgba(255, 68, 0, 0.816));
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
 }
 .hero-section-btn .button-effect {  
   position: absolute;  
