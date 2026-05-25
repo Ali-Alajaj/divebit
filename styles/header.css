@@ -31,26 +31,36 @@ header {
 .link:hover {
   color: #ffffff;
 }
-.header-call-to-action-btn {
+.header-call-to-action-btn {  
   margin-right: 20px;  
   height: 37px;  
   width: 160px;  
-  color: #ffffff !important;
+  color: white;  
   border-radius: 30px;  
-  border: 2px solid transparent;  
+  border: none;
   cursor: pointer;
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 0.5px;
-
+  transition: opacity 0.2s;
+  
   -webkit-appearance: none;
   appearance: none;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(to right, #dcdcdc, #2a2a2a, #2a2a2a, #dfdfdf);
+}
 
-  background-image: linear-gradient(rgb(27, 30, 48)), linear-gradient(to right, #dcdcdc, #2a2a2a, #2a2a2a, #dfdfdf);
-  background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
-
-  transition: opacity 0.2s;
+.header-call-to-action-btn::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: rgb(27, 30, 48);
+  border-radius: 28px;
+  z-index: -1;
 }
 .header-call-to-action-btn:hover {
   opacity: 0.9;
