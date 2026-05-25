@@ -383,3 +383,8 @@ footer {
   .footer-grid { grid-template-columns: 1fr; }
   .footer-brand { grid-column: span 1; }
 }
+
+button {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+}
