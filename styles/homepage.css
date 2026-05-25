@@ -48,7 +48,9 @@ video {
   margin-bottom: 30px;
   color: rgba(255, 255, 255, 0.7);
 }
-.hero-section-btn {  
+.hero-section-btn {
+  -webkit-appearance: none;
+  appearance: none;
   width: 240px;  
   height: 44px;  
   background-color: white;  
@@ -264,6 +266,8 @@ video {
   margin-right: auto;
 }
 .cta-large {
+  -webkit-appearance: none;
+  appearance: none;
   width: 240px;
   height: 48px;
   font-size: 13px;
