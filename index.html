@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIVEBIT</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/homepage.css">
+  <link rel="stylesheet" href="styles/herosectino-dashboard.css">
+</head>
+<body>
+  
+  <header>
+    <div class="header-left-section">
+      <div class="logo">DIVEBIT</div>
+      <div class="link">Home</div>
+      <div class="link">Pricing</div>
+      <div class="link">FAQ</div>
+    </div>
+    <div class="header-right-section">
+      <button class="header-call-to-action-btn">GET STARTED</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="video-container">
+      <video autoplay loop muted playsinline>
+        <source src="images/background-images/background-video.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="hero-wrapper">
+      <div class="welcome-message">
+        <div class="txt-top">Bring Your Vision to Life Instantly</div>
+        <div class="txt-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quo eius ipsum dolor consectetur.</div>
+        <button class="hero-section-btn">GET TRIAL
+          <div class="button-effect">
+            <div class="circle-a"></div>
+            <div class="circle-aa"></div>
+            <div class="circle-aa"></div>
+            <div class="circle-aa"></div>
+            <div class="circle-aa"></div>
+            <div class="circle-b"></div>
+            <div class="circle-b"></div>
+            <div class="circle-b"></div>
+          </div>
+        </button>
+      </div>
+      
+      <div class="mini-dashboard">
+        <div class="d-outer" id="dOuter">
+          <div class="d-inner">
+            <div class="hdr">
+              <span class="hdr-title">Dashboard</span>
+              <div class="hdr-right">
+                <span class="pill pill-blue">Adam's Team</span>
+                <span class="pill pill-live"><span class="live-dot"></span>Live</span>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="chart-top">
+                <span class="chart-lbl">Work summary · Nov–Jul</span>
+                <div class="legend">
+                  <div class="leg"><div class="leg-d" style="background:#4cc9f0"></div>Last month</div>
+                  <div class="leg"><div class="leg-d" style="background:#f72585"></div>This month</div>
+                </div>
+              </div>
+              <div class="canvas-wrap"><canvas id="neonChart"></canvas></div>
+            </div>
+
+            <div class="stat-area">
+              <span class="stat-n" id="signups">9,845</span>
+              <span class="stat-tag">+829</span>
+              <span class="stat-desc">Sign-ups · 30 days</span>
+            </div>
+
+            <div class="bot-grid">
+              <div class="bc">
+                <div class="bc-lbl">Exchange rate</div>
+                <div class="bc-val" id="exVal">0.2134</div>
+                <div class="bc-sub red" id="exDelta">▼ 0.32%</div>
+                <canvas class="canvas-mini" id="miniChart"></canvas>
+              </div>
+              <div class="bc">
+                <div class="bc-lbl">Team · Sales NY</div>
+                <div class="tm"><div class="ta" style="background:#7209b7"></div><span class="tn">Alex</span><div class="tbg"><div class="tf" id="b1" style="width:65%;background:#4cc9f0"></div></div></div>
+                <div class="tm"><div class="ta" style="background:#f72585"></div><span class="tn">Mia</span><div class="tbg"><div class="tf" id="b2" style="width:81%;background:#f72585"></div></div></div>
+                <div class="tm"><div class="ta" style="background:#4361ee"></div><span class="tn">Tom</span><div class="tbg"><div class="tf" id="b3" style="width:49%;background:#7209b7"></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="features-section">
+      <div class="section-title-wrap">
+        <h2>Engineered for Performance</h2>
+        <p>Discover real-time intelligence automation packed with bleeding-edge technology.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="icon-wrap"><span class="material-symbols-outlined">monitoring</span></div>
+          <h3>Predictive Analytics</h3>
+          <p>Utilize powerful machine learning models to map real-time changes and market fluctuations instantaneously.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-wrap"><span class="material-symbols-outlined">bolt</span></div>
+          <h3>Lightning Engine</h3>
+          <p>Experience sub-millisecond data execution logic constructed for modern, heavy-workload operations.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon-wrap"><span class="material-symbols-outlined">encrypted</span></div>
+          <h3>End-to-End Trust</h3>
+          <p>State of the art isolated container architecture securing data points without minimizing performance speeds.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase-section">
+      <div class="showcase-content">
+        <h2>Unify Your Entire Workspace</h2>
+        <p>Stop juggling separate platforms for metrics, team coordination, and asset adjustments. Divebit bridges your infrastructure gap instantly with single-pane management control matrices.</p>
+        <ul class="showcase-list">
+          <li><span class="material-symbols-outlined">check_circle</span> Automated team task scaling systems</li>
+          <li><span class="material-symbols-outlined">check_circle</span> Global sync matrices with zero dependencies</li>
+          <li><span class="material-symbols-outlined">check_circle</span> Dynamic localized tracking components</li>
+        </ul>
+      </div>
+      <div class="showcase-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80" alt="Abstract modern neon layout">
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-glow"></div>
+      <div class="cta-content">
+        <h2>Ready to Transform Your Workflow?</h2>
+        <p>Join over 10,000+ teams who have supercharged their visualization pipelines with Divebit.</p>
+        <button class="header-call-to-action-btn cta-large">GET STARTED FOR FREE</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">DIVEBIT</div>
+        <p>Bringing high-fidelity operational pipelines and instant tracking interfaces to creative teams globally.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Product</h4>
+        <a href="#">Features</a>
+        <a href="#">Security</a>
+        <a href="#">Pricing</a>
+      </div>
+      <div class="footer-links">
+        <h4>Resources</h4>
+        <a href="#">Documentation</a>
+        <a href="#">API Status</a>
+        <a href="#">Community</a>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Security Guidelines</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 DIVEBIT Inc. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+  (function(){
+    var angle=0;
+    var outer=document.getElementById('dOuter');
+    function spin(){angle=(angle+1.0)%360;outer.style.background='conic-gradient(from '+angle+'deg,#4361ee,#7209b7,#f72585,#f8961e,#4cc9f0,#4361ee)';requestAnimationFrame(spin);}
+    spin();
+
+    function makePts(seed,n,amp,off){
+      return Array.from({length:n},function(_,i){
+        var t=i/(n-1);
+        return off+amp*Math.sin(t*Math.PI*3.5+seed)+amp*0.4*Math.sin(t*Math.PI*7+seed*1.3)+amp*0.2*Math.sin(t*Math.PI*13+seed*0.7);
+      });
+    }
+
+    var pts1=makePts(0,40,18,50);
+    var pts2=makePts(2.1,40,15,52);
+    var miniPts=Array.from({length:24},function(){return 25+Math.random()*55;});
+
+    function dpr(){return window.devicePixelRatio||1;}
+
+    function setupCanvas(canvas){
+      var r=canvas.getBoundingClientRect();
+      var W=r.width||canvas.offsetWidth||260;
+      var H=r.height||canvas.offsetHeight||100;
+      var d=dpr();
+      canvas.width=W*d;canvas.height=H*d;
+      var ctx=canvas.getContext('2d');ctx.scale(d,d);
+      return{ctx:ctx,W:W,H:H};
+    }
+
+    function catmullPath(ctx,pts,W,H){
+      var n=pts.length;
+      ctx.beginPath();
+      for(var i=0;i<n;i++){
+        var x=i/(n-1)*W,y=H-pts[i]/100*H;
+        if(i===0){ctx.moveTo(x,y);continue;}
+        var px=pts[i-1],ppx=i>1?pts[i-2]:pts[i-1];
+        var nx=i<n-1?pts[i+1]:pts[i];
+        var x0=(i-1)/(n-1)*W,y0=H-px/100*H;
+        var x00=(i>1?(i-2)/(n-1)*W:x0),y00=H-ppx/100*H;
+        var x2=i<n-1?(i+1)/(n-1)*W:x,y2=H-nx/100*H;
+        var cp1x=x0+(x-x00)/6,cp1y=y0+(y-y00)/6;
+        var cp2x=x-(x2-x0)/6,cp2y=y-(y2-y0)/6;
+        ctx.bezierCurveTo(cp1x,cp1y,cp2x,cp2y,x,y);
+      }
+    }
+
+    function neonLine(ctx,pts,color,W,H){
+      ctx.save();
+      [[14,0.15],[7,0.4],[2,1]].forEach(function(s){
+        ctx.shadowColor=color;ctx.shadowBlur=s[0];ctx.globalAlpha=s[1];ctx.lineWidth=s[0]>5?6:s[0]>3?2.5:1.5;ctx.strokeStyle=color;ctx.lineCap='round';ctx.lineJoin='round';
+        catmullPath(ctx,pts,W,H);ctx.stroke();
+      });
+      ctx.restore();
+    }
+
+    function neonFill(ctx,pts,color,W,H){
+      ctx.save();
+      var grad=ctx.createLinearGradient(0,0,0,H);
+      grad.addColorStop(0,color.replace(')',',0.15)').replace('rgb','rgba'));
+      grad.addColorStop(1,color.replace(')',',0)').replace('rgb','rgba'));
+      ctx.beginPath();
+      catmullPath(ctx,pts,W,H);
+      var n=pts.length;
+      ctx.lineTo(W,H);ctx.lineTo(0,H);ctx.closePath();
+      ctx.fillStyle=grad;ctx.fill();
+      ctx.restore();
+    }
+
+    function drawMain(){
+      var nc=document.getElementById('neonChart');
+      if(!nc) return;
+      var s=setupCanvas(nc);
+      var ctx=s.ctx,W=s.W,H=s.H;
+      ctx.fillStyle='#111827';ctx.fillRect(0,0,W,H);
+      neonFill(ctx,pts1,'rgb(76,201,240)',W,H);
+      neonFill(ctx,pts2,'rgb(247,37,133)',W,H);
+      neonLine(ctx,pts1,'#4cc9f0',W,H);
+      neonLine(ctx,pts2,'#f72585',W,H);
+    }
+
+    function drawMini(){
+      var mc=document.getElementById('miniChart');
+      if(!mc) return;
+      var s=setupCanvas(mc);
+      var ctx=s.ctx,W=s.W,H=s.H;
+      ctx.clearRect(0,0,W,H);
+      var n=miniPts.length;
+      var grad=ctx.createLinearGradient(0,0,0,H);
+      grad.addColorStop(0,'rgba(247,37,133,0.2)');grad.addColorStop(1,'rgba(247,37,133,0)');
+      ctx.beginPath();
+      miniPts.forEach(function(v,i){var x=i/(n-1)*W,y=H-v/100*H;i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);});
+      ctx.lineTo(W,H);ctx.lineTo(0,H);ctx.closePath();
+      ctx.fillStyle=grad;ctx.fill();
+      ctx.beginPath();ctx.shadowColor='#f72585';ctx.shadowBlur=5;ctx.strokeStyle='#f72585';ctx.lineWidth=1.5;
+      miniPts.forEach(function(v,i){var x=i/(n-1)*W,y=H-v/100*H;i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);});
+      ctx.stroke();
+    }
+
+    var chartWrap = document.getElementById('neonChart') ? document.getElementById('neonChart').closest('.canvas-wrap') : null;
+    var miniChartEl = document.getElementById('miniChart');
+    
+    if(chartWrap && miniChartEl) {
+      var ro=new ResizeObserver(function(){drawMain();drawMini();});
+      ro.observe(chartWrap);
+      ro.observe(miniChartEl);
+    }
+
+    setTimeout(function(){drawMain();drawMini();},80);
+
+    var tick=0;
+    setInterval(function(){
+      tick++;
+      if(pts1.length > 0) { pts1.shift(); pts1.push(30+Math.random()*40); }
+      if(pts2.length > 0) { pts2.shift(); pts2.push(32+Math.random()*38); }
+      drawMain();
+      if(miniPts.length > 0) { miniPts.shift(); miniPts.push(25+Math.random()*55); }
+      drawMini();
+      if(tick%4===0){
+        var v=(0.19+Math.random()*0.06).toFixed(4);
+        var up=Math.random()>0.5;
+        var d=(up?'▲ ':'▼ ')+(Math.random()*0.6+0.05).toFixed(2)+'%';
+        var exValEl = document.getElementById('exVal');
+        var exDeltaEl = document.getElementById('exDelta');
+        if(exValEl) exValEl.textContent=v;
+        if(exDeltaEl) { exDeltaEl.textContent=d; exDeltaEl.className='bc-sub '+(up?'green':'red'); }
+      }
+    },1600);
+  })();
+  </script>
+</body>
+</html>

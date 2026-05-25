@@ -1,0 +1,8 @@
+body {  
+  margin: 0;  
+  font-family: 'Inter', Arial, sans-serif;  
+  background-color: #0b0c1e;  
+  position: relative;
+  overflow-x: hidden;
+}
+p { margin: 0; }
